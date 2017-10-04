@@ -29,7 +29,7 @@ namespace Ma.Mvc.FluentValidation.PropertyValidators
 
             // Convert validator
             GreaterThanOrEqualValidator greaterThanOrEqualValidator =
-                (GreaterThanOrEqualValidator)Validator;
+                (GreaterThanOrEqualValidator)Validator;            
 
             // Initializ client rule
             ModelClientValidationRule rule = new ModelClientValidationRule();
@@ -75,7 +75,7 @@ namespace Ma.Mvc.FluentValidation.PropertyValidators
             }
 
             // Set error message or rule
-            rule.ErrorMessage = formatter.BuildMessage(Validator.ErrorMessageSource.GetString());
+            rule.ErrorMessage = formatter.BuildMessage(Validator.ErrorMessageSource.GetString(null));
 
             yield return rule;
         }

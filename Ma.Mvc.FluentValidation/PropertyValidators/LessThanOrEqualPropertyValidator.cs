@@ -71,7 +71,7 @@ namespace Ma.Mvc.FluentValidation.PropertyValidators
             }
 
             // Set error message of rule
-            rule.ErrorMessage = formatter.BuildMessage(Validator.ErrorMessageSource.GetString());
+            rule.ErrorMessage = formatter.BuildMessage(Validator.ErrorMessageSource.GetString(null));
 
             yield return rule;
         }
