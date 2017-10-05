@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Ma.Mvc.FluentValidation</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>MammadovAdil</authors>
+    <owners>MammadovAdil</owners>
+    <licenseUrl>https://github.com/MammadovAdil/Mvc.FluentValidation/blob/master/License.md</licenseUrl>
+    <projectUrl>https://github.com/MammadovAdil/Mvc.FluentValidation</projectUrl>
+    <iconUrl>https://cdn1.iconfinder.com/data/icons/material-core/20/check-circle-outline-128.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Proeprty validators for non-supported functions by default and other additions.</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Mvc FluentValidation Validation PropertyValidator</tags>
+
+    <dependencies>
+      <dependency id="FluentValidation" version="7.1.0" />
+      <dependency id="FluentValidation.Mvc5" version="7.1.0" />
+      <dependency id="Microsoft.AspNet.Mvc" version="5.2.3" />
+      <dependency id="Microsoft.AspNet.Razor" version="3.2.3" />
+      <dependency id="Microsoft.AspNet.WebPages" version="3.2.3" />
+      <dependency id="Microsoft.Web.Infrastructure" version="1.0.0" />
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="Scripts\ma.mvc.fluent-validation.adapter.js" target="Scripts" />
+  </files>
+</package>
