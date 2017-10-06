@@ -24,8 +24,4 @@
       <dependency id="Microsoft.Web.Infrastructure" version="1.0.0" />
     </dependencies>
   </metadata>
-
-  <files>
-    <file src="Scripts\ma.mvc.fluent-validation.adapter.js" target="Scripts" />
-  </files>
 </package>
