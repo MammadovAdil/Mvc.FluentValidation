@@ -11,7 +11,10 @@
     <iconUrl>https://cdn1.iconfinder.com/data/icons/material-core/20/check-circle-outline-128.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Proeprty validators for non-supported functions by default and other additions.</description>
-    <releaseNotes>First release.</releaseNotes>
+    <releaseNotes>
+    Altered getRuleParametersFromOptions method to store seach criteria instead of element itself as it can 
+    cause some problems when renewing compared elements using Ajax.
+    </releaseNotes>
     <copyright>Copyright 2017</copyright>
     <tags>Mvc FluentValidation Validation PropertyValidator</tags>
 
